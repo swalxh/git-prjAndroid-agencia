@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1020144282494",
+    "firebase_url": "https://agencia-bdf52.firebaseio.com",
+    "project_id": "agencia-bdf52",
+    "storage_bucket": "agencia-bdf52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020144282494:android:b0b62f1a48dcf07f27e12f",
+        "android_client_info": {
+          "package_name": "com.example.agencia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020144282494-l6cbfo2kfrf3538l3k1mebnv1qjbb9r5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agencia",
+            "certificate_hash": "0d981f7180ba6826e4f14d3169c1295432547213"
+          }
+        },
+        {
+          "client_id": "1020144282494-4lo6iamdou2a56kopivb0skmo9mt186p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjjfTT2e_JR74rv-pj8aZnSDaUzOe9FVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020144282494-4lo6iamdou2a56kopivb0skmo9mt186p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
