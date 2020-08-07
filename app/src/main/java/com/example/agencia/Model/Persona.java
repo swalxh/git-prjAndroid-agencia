@@ -6,8 +6,6 @@ public class Persona {
     private String Correo;
     private String Password;
 
-
-
     public String getNombre() {
         return Nombre;
     }
