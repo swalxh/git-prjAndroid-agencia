@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_cars_gallery">
+
+    <fragment
+        android:id="@+id/nav_cars_gallery"
+        android:name="com.example.agencia.ui.principalarea.CarsGallery"
+        android:label="Galeria automoviles"
+        tools:layout="@layout/fragment_cars_gallery"
+        />
+
+    <fragment
+        android:id="@+id/nav_profile_user"
+        android:name="com.example.agencia.ui.userprofile.UserProfileData"
+        android:label="Perfil de usuario"
+        tools:layout="@layout/fragment_user_profile_data"
+        />
+
+    <fragment
+        android:id="@+id/nav_reg_ctemp"
+        android:name="com.example.agencia.ui.ghostarea.AreaRegistroCars"
+        android:label="Registro autos"
+        tools:layout="@layout/fragment_area_registro_cars"
+        />
+
+</navigation>

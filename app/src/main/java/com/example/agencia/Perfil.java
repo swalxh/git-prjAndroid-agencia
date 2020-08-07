@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.example.agencia.R;
+
 public class Perfil extends AppCompatActivity {
     public static final String user="names";
     TextView txtUser;

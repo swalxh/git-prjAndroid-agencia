@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.agencia.ui.userprofile.UserProfileData;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -49,12 +50,17 @@ public class MainActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         //checking if success
                         if (task.isSuccessful()) {
+
+                            Intent ifrmProf = new Intent(getApplication(), MenuAfterAcess.class);
+                            startActivity(ifrmProf);
+
+                            /*
                             int pos = correo.indexOf("@");
                             String user = correo.substring(0, pos);
                             Toast.makeText(MainActivity.this, "Bienvenido: " + email.getText(), Toast.LENGTH_LONG).show();
                             Intent intencion = new Intent(getApplication(), Perfil.class);
                             intencion.putExtra(Perfil.user, user);
-                            startActivity(intencion);
+                            startActivity(intencion);*/
 
 
                         } else {
