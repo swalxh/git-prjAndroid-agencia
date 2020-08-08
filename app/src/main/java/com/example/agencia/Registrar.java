@@ -95,7 +95,8 @@ public class Registrar extends AppCompatActivity {
                                 if (task.getException() instanceof FirebaseAuthUserCollisionException) {
                                     Toast.makeText(Registrar.this, "Ese usuario ya existe ", Toast.LENGTH_SHORT).show();
                                 } else {
-                                    Toast.makeText(Registrar.this, "No se pudo registrar el usuario ", Toast.LENGTH_LONG).show();
+                                   // Toast.makeText(Registrar.this, "No se pudo registrar el usuario ", Toast.LENGTH_LONG).show();
+                                    Toast.makeText(Registrar.this, task.getException().getMessage(), Toast.LENGTH_LONG).show();
                                 }
                             }
                         }

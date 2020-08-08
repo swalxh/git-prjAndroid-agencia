@@ -1,11 +1,14 @@
 package com.example.agencia.Model;
 
+import android.media.Image;
+
 public class Automovil {
 
     private String Marca;
     private String Modelo;
     private String Capacidad;
     private String Color;
+    private Image pctVehicle;
 
     public String getMarca() {
         return Marca;
@@ -37,5 +40,13 @@ public class Automovil {
 
     public void setColor(String color) {
         Color = color;
+    }
+
+    public Image getPctVehicle() {
+        return pctVehicle;
+    }
+
+    public void setPctVehicle(Image pctVehicle) {
+        this.pctVehicle = pctVehicle;
     }
 }

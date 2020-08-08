@@ -19,8 +19,8 @@
             android:text="Datos del vehiculo"
             android:textSize="32sp"
             android:textColor="#fff"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            android:layout_margin="20dp"
+            android:paddingBottom="10dp"
             />
 
         <EditText
@@ -94,6 +94,28 @@
             android:paddingBottom="10dp"
             android:textColorHint="#ccc"
             />
+
+        <Button
+            android:id="@+id/btnSelectPic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Seleccionar imagen"
+            android:background="@color/colorAccent"/>
+
+        <ImageView
+            android:id="@+id/imgVehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnRegistrarVehicle"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Registrar"
+            android:background="@color/cardview_dark_background"/>
 
     </LinearLayout>
 

@@ -1,5 +1,7 @@
 package com.example.agencia.Model;
 
+import android.media.Image;
+
 public class Persona {
     private String Nombre;
     private String Telefono;
